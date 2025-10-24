@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // 👇 Set your actual SDK path
-        ANDROID_HOME = "/home/arunsandip/Android/Sdk"
+        ANDROID_HOME = "/var/lib/jenkins/Android/Sdk"
         PATH = "$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools"
     }
 
