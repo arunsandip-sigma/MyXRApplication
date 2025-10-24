@@ -20,7 +20,7 @@ pipeline {
             steps {
                 // Dynamically create local.properties for Jenkins
                 sh '''
-                    echo "Dynamically create local.properties for Jenkins."
+                    echo "Dynamically create local.properties for Jenkins"
                     echo "sdk.dir=$ANDROID_HOME" > local.properties
                     echo "✅ Created local.properties with SDK path: $ANDROID_HOME"
                 '''
